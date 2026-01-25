@@ -1,0 +1,2027 @@
+[
+  {
+    "code": "AFG",
+    "name": "Afghanistan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ALB",
+    "name": "Albania",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "DZA",
+    "name": "Algeria",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ASM",
+    "name": "American Samoa",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "AND",
+    "name": "Andorra",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "AGO",
+    "name": "Angola",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ATG",
+    "name": "Antigua and Barbuda",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ARG",
+    "name": "Argentina",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ARM",
+    "name": "Armenia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ABW",
+    "name": "Aruba",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "AUS",
+    "name": "Australia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "AUT",
+    "name": "Austria",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "AZE",
+    "name": "Azerbaijan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PT-20",
+    "name": "Azores",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BHR",
+    "name": "Bahrain",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BGD",
+    "name": "Bangladesh",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BRB",
+    "name": "Barbados",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BLR",
+    "name": "Belarus",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BEL",
+    "name": "Belgium",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BLZ",
+    "name": "Belize",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BEN",
+    "name": "Benin",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BMU",
+    "name": "Bermuda",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BTN",
+    "name": "Bhutan",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BOL",
+    "name": "Bolivia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BWA",
+    "name": "Botswana",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "BRA",
+    "name": "Brazil",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "VGB",
+    "name": "British Virgin Islands",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BRN",
+    "name": "Brunei",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BGR",
+    "name": "Bulgaria",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "BFA",
+    "name": "Burkina Faso",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "BDI",
+    "name": "Burundi",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KHM",
+    "name": "Cambodia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CMR",
+    "name": "Cameroon",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CAN",
+    "name": "Canada",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ES-CN",
+    "name": "Canary Islands",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CYM",
+    "name": "Cayman Islands",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CAF",
+    "name": "Central African Republic",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ES-CE",
+    "name": "Ceuta",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TCD",
+    "name": "Chad",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CHL",
+    "name": "Chile",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CHN",
+    "name": "China",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "COL",
+    "name": "Colombia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "COM",
+    "name": "Comoros",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "COG",
+    "name": "Republic of the Congo",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "COD",
+    "name": "Democratic Republic of the Congo",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "COK",
+    "name": "Cook Islands",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CRI",
+    "name": "Costa Rica",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CIV",
+    "name": "Cóte d'Ivoire",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "HRV",
+    "name": "Croatia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "CUB",
+    "name": "Cuba",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CUW",
+    "name": "Curação",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CYP",
+    "name": "Cyprus",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CZE",
+    "name": "Czechia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "DNK",
+    "name": "Denmark",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "DJI",
+    "name": "Djibouti",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "DMA",
+    "name": "Dominica",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "DOM",
+    "name": "Dominican Republic",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ECU",
+    "name": "Ecuador",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "EGY",
+    "name": "Egypt",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "SLV",
+    "name": "El Salvador",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GNQ",
+    "name": "Equatorial Guinea",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ERI",
+    "name": "Eritrea",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "EST",
+    "name": "Estonia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SWZ",
+    "name": "Eswatini",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ETH",
+    "name": "Ethiopia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FRO",
+    "name": "Faroe Islands",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FSM",
+    "name": "Federated States of Micronesia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FJI",
+    "name": "Fiji",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "FIN",
+    "name": "Finland",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FRA",
+    "name": "France",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "FR-GF",
+    "name": "French Guiana",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PYF",
+    "name": "French Polynesia",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GAB",
+    "name": "Gabon",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GEO",
+    "name": "Georgia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "DEU",
+    "name": "Germany",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "GHA",
+    "name": "Ghana",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GIB",
+    "name": "Gibraltar",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GRC",
+    "name": "Greece",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "GRL",
+    "name": "Greenland",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GRD",
+    "name": "Grenada",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FR-GP",
+    "name": "Guadeloupe",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GTM",
+    "name": "Guatemala",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GIN",
+    "name": "Guinea",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GNB",
+    "name": "Guinea-Bissau",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "GUY",
+    "name": "Guyana",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "HTI",
+    "name": "Haiti",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "VAT",
+    "name": "Vatican",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "HND",
+    "name": "Honduras",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "HKG",
+    "name": "Hong Kong",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "HUN",
+    "name": "Hungary",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "ISL",
+    "name": "Iceland",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "IND",
+    "name": "India",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "IDN",
+    "name": "Indonesia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "IRN",
+    "name": "Iran",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "IRQ",
+    "name": "Iraq",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "IRL",
+    "name": "Ireland",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "IMN",
+    "name": "Isle of Man",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ISR",
+    "name": "Israel",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ITA",
+    "name": "Italy",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "JAM",
+    "name": "Jamaica",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "JPN",
+    "name": "Japan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "JOR",
+    "name": "Jordan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "KAZ",
+    "name": "Kazakhstan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KEN",
+    "name": "Kenya",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KIR",
+    "name": "Kiribati",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KOS",
+    "name": "Kosovo",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KWT",
+    "name": "Kuwait",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KGZ",
+    "name": "Kyrgyzstan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FR-RE",
+    "name": "La Réunion",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LAO",
+    "name": "Laos",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "LVA",
+    "name": "Latvia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LBN",
+    "name": "Lebanon",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LSO",
+    "name": "Lesotho",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "LBR",
+    "name": "Liberia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LBY",
+    "name": "Libya",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LIE",
+    "name": "Liechtenstein",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "LTU",
+    "name": "Lithuania",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LUX",
+    "name": "Luxembourg",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MAC",
+    "name": "Macao",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MKD",
+    "name": "North Macedonia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MDG",
+    "name": "Madagascar",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PT-30",
+    "name": "Madeira",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "MWI",
+    "name": "Malawi",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MYS",
+    "name": "Malaysia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MDV",
+    "name": "Maldives",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "MLI",
+    "name": "Mali",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MLT",
+    "name": "Malta",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MHL",
+    "name": "Marshall Islands",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "FR-MQ",
+    "name": "Martinique",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MRT",
+    "name": "Mauritania",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MUS",
+    "name": "Mauritius",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ES-ML",
+    "name": "Melilla",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MEX",
+    "name": "Mexico",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "MDA",
+    "name": "Moldova",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MCO",
+    "name": "Monaco",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MNG",
+    "name": "Mongolia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MNE",
+    "name": "Montenegro",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MAR",
+    "name": "Morocco",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "MOZ",
+    "name": "Mozambique",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "MMR",
+    "name": "Myanmar",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "NAM",
+    "name": "Namibia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "NRU",
+    "name": "Nauru",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NPL",
+    "name": "Nepal",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NLD",
+    "name": "Netherlands",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "NCL",
+    "name": "New Caledonia",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NZL",
+    "name": "New Zealand",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NIC",
+    "name": "Nicaragua",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NER",
+    "name": "Niger",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NGA",
+    "name": "Nigeria",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PRK",
+    "name": "North Korea",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "NOR",
+    "name": "Norway",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "OMN",
+    "name": "Oman",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "PAK",
+    "name": "Pakistan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PLW",
+    "name": "Palau",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PAN",
+    "name": "Panama",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "PNG",
+    "name": "Papua New Guinea",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PRY",
+    "name": "Paraguay",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PER",
+    "name": "Peru",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "PHL",
+    "name": "Philippines",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "POL",
+    "name": "Poland",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "PRT",
+    "name": "Portugal",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "PRI",
+    "name": "Puerto Rico",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "QAT",
+    "name": "Qatar",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ROU",
+    "name": "Romania",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "RUS",
+    "name": "Russia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "RWA",
+    "name": "Rwanda",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "LCA",
+    "name": "Saint Lucia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "WSM",
+    "name": "Samoa",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SMR",
+    "name": "San Marino",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "STP",
+    "name": "São Tomé and Príncipe",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SAU",
+    "name": "Saudi Arabia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SEN",
+    "name": "Senegal",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SRB",
+    "name": "Serbia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SYC",
+    "name": "Seychelles",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SLE",
+    "name": "Sierra Leone",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SGP",
+    "name": "Singapore",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SVK",
+    "name": "Slovakia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "SVN",
+    "name": "Slovenia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SLB",
+    "name": "Solomon Islands",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SOM",
+    "name": "Somalia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ZAF",
+    "name": "South Africa",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "KOR",
+    "name": "South Korea",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "SDS",
+    "name": "South Sudan",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ESP",
+    "name": "Spain",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "LKA",
+    "name": "Sri Lanka",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SDN",
+    "name": "Sudan",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SUR",
+    "name": "Suriname",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "SWE",
+    "name": "Sweden",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "CHE",
+    "name": "Switzerland",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "SYR",
+    "name": "Syria",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TWN",
+    "name": "Taiwan",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TJK",
+    "name": "Tajikistan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TZA",
+    "name": "Tanzania",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "THA",
+    "name": "Thailand",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "BHS",
+    "name": "Bahamas",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "GMB",
+    "name": "Gambia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "CN-XZ",
+    "name": "Tibet",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TLS",
+    "name": "Timor-Leste",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TGO",
+    "name": "Togo",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TON",
+    "name": "Tonga",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TTO",
+    "name": "Trinidad and Tobago",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TUN",
+    "name": "Tunisia",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TUR",
+    "name": "Turkey",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": false
+  },
+  {
+    "code": "TKM",
+    "name": "Turkmenistan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "TUV",
+    "name": "Tuvalu",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "UGA",
+    "name": "Uganda",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "UKR",
+    "name": "Ukraine",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ARE",
+    "name": "United Arab Emirates",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "GBR",
+    "name": "United Kingdom",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "USA",
+    "name": "United States of America",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "URY",
+    "name": "Uruguay",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "VIR",
+    "name": "U.S. Virgin Islands",
+    "status": "Non-sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "VUT",
+    "name": "Vanuatu",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "VEN",
+    "name": "Venezuela",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "VNM",
+    "name": "Vietnam",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "YEM",
+    "name": "Yemen",
+    "status": "Sovereign",
+    "chris": false,
+    "maggie": true,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ZMB",
+    "name": "Zambia",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "ZWE",
+    "name": "Zimbabwe",
+    "status": "Sovereign",
+    "chris": true,
+    "maggie": true,
+    "allyson": true,
+    "edward": true
+  },
+  {
+    "code": "SXM",
+    "name": "Sint Maarten",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  },
+  {
+    "code": "ATA",
+    "name": "Antarctica",
+    "status": "Non-sovereign",
+    "chris": false,
+    "maggie": false,
+    "allyson": false,
+    "edward": false
+  }
+]

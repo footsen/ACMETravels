@@ -1,0 +1,226 @@
+﻿Code,Name,Status,Chris,Maggie,Allyson,Edward
+AFG,Afghanistan,Sovereign,Y,,,
+ALB,Albania,Sovereign,Y,Y,,
+DZA,Algeria,Sovereign,,,,
+ASM,American Samoa,Non-sovereign,Y,Y,,
+AND,Andorra,Sovereign,,,,
+AGO,Angola,Sovereign,,,,
+ATG,Antigua and Barbuda,Sovereign,Y,Y,Y,Y
+ARG,Argentina,Sovereign,Y,Y,Y,Y
+ARM,Armenia,Sovereign,Y,Y,,
+ABW,Aruba,Non-sovereign,Y,Y,Y,Y
+AUS,Australia,Sovereign,Y,Y,Y,Y
+AUT,Austria,Sovereign,Y,Y,Y,Y
+AZE,Azerbaijan,Sovereign,Y,Y,,
+PT-20,Azores,Non-sovereign,,,,
+BHR,Bahrain,Sovereign,,,,
+BGD,Bangladesh,Sovereign,,,,
+BRB,Barbados,Sovereign,,,,
+BLR,Belarus,Sovereign,,,,
+BEL,Belgium,Sovereign,Y,Y,,
+BLZ,Belize,Sovereign,Y,Y,,
+BEN,Benin,Sovereign,,,,
+BMU,Bermuda,Non-sovereign,,,,
+BTN,Bhutan,Sovereign,,,,
+BOL,Bolivia,Sovereign,,Y,,
+BIH,Bosnia and Herzegovina,Sovereign,Y,Y,,
+BWA,Botswana,Sovereign,Y,Y,Y,Y
+BRA,Brazil,Sovereign,Y,Y,Y,Y
+VGB,British Virgin Islands,Non-sovereign,,,,
+BRN,Brunei,Sovereign,,,,
+BGR,Bulgaria,Sovereign,Y,Y,Y,
+BFA,Burkina Faso,Sovereign,Y,,,
+BDI,Burundi,Sovereign,Y,Y,,
+CPV,Cabo Verde,Sovereign,,,,
+KHM,Cambodia,Sovereign,Y,Y,Y,Y
+CMR,Cameroon,Sovereign,Y,,,
+CAN,Canada,Sovereign,Y,Y,Y,Y
+ES-CN,Canary Islands,Non-sovereign,Y,Y,Y,Y
+CYM,Cayman Islands,Non-sovereign,Y,Y,Y,Y
+CAF,Central African Republic,Sovereign,,,,
+ES-CE,Ceuta,Non-sovereign,,,,
+TCD,Chad,Sovereign,,,,
+CHL,Chile,Sovereign,Y,Y,Y,Y
+CHN,China,Sovereign,Y,Y,Y,Y
+COL,Colombia,Sovereign,Y,Y,Y,Y
+COM,Comoros,Sovereign,,,,
+COG,Republic of the Congo,Sovereign,Y,,,
+COD,Democratic Republic of the Congo,Sovereign,Y,,,
+COK,Cook Islands,Sovereign,Y,Y,,
+CRI,Costa Rica,Sovereign,Y,Y,Y,Y
+CIV,Cóte d'Ivoire,Sovereign,Y,,,
+HRV,Croatia,Sovereign,Y,Y,Y,Y
+CUB,Cuba,Sovereign,,,,
+CUW,Curação,Sovereign,,,,
+CYP,Cyprus,Sovereign,Y,Y,,
+CZE,Czechia,Sovereign,Y,Y,Y,
+DNK,Denmark,Sovereign,Y,Y,,
+DJI,Djibouti,Sovereign,,,,
+DMA,Dominica,Sovereign,Y,Y,Y,Y
+DOM,Dominican Republic,Sovereign,Y,Y,Y,Y
+ECU,Ecuador,Sovereign,,Y,,
+EGY,Egypt,Sovereign,Y,Y,Y,Y
+SLV,El Salvador,Sovereign,,Y,,
+GNQ,Equatorial Guinea,Sovereign,Y,,,
+ERI,Eritrea,Sovereign,,,,
+EST,Estonia,Sovereign,,,,
+SWZ,Eswatini,Sovereign,Y,Y,Y,Y
+ETH,Ethiopia,Sovereign,,,,
+FRO,Faroe Islands,Non-sovereign,Y,Y,,
+FSM,Federated States of Micronesia,Sovereign,,,,
+FJI,Fiji,Sovereign,Y,Y,Y,Y
+FIN,Finland,Sovereign,,,,
+FRA,France,Sovereign,Y,Y,Y,Y
+FR-GF,French Guiana,Non-sovereign,,,,
+PYF,French Polynesia,Non-sovereign,Y,Y,,
+GAB,Gabon,Sovereign,Y,,,
+GEO,Georgia,Sovereign,Y,Y,,
+DEU,Germany,Sovereign,Y,Y,Y,Y
+GHA,Ghana,Sovereign,,,,
+GIB,Gibraltar,Non-sovereign,Y,Y,,
+GRC,Greece,Sovereign,Y,Y,Y,Y
+GRL,Greenland,Non-sovereign,,,,
+GRD,Grenada,Sovereign,,,,
+FR-GP,Guadeloupe,Non-sovereign,,Y,,
+GTM,Guatemala,Sovereign,Y,Y,,
+GIN,Guinea,Sovereign,,,,
+GNB,Guinea-Bissau,Sovereign,,Y,,
+GUY,Guyana,Sovereign,,,,
+HTI,Haiti,Sovereign,,Y,,
+VAT,Vatican,Non-sovereign,Y,Y,Y,
+HND,Honduras,Sovereign,,Y,Y,Y
+HKG,Hong Kong,Non-sovereign,Y,Y,,
+HUN,Hungary,Sovereign,Y,Y,Y,
+ISL,Iceland,Sovereign,Y,Y,,
+IND,India,Sovereign,Y,Y,,
+IDN,Indonesia,Sovereign,Y,Y,,
+IRN,Iran,Sovereign,,,,
+IRQ,Iraq,Sovereign,,,,
+IRL,Ireland,Sovereign,Y,Y,Y,
+IMN,Isle of Man,Non-sovereign,Y,Y,,
+ISR,Israel,Sovereign,Y,Y,Y,Y
+ITA,Italy,Sovereign,Y,Y,Y,Y
+JAM,Jamaica,Sovereign,Y,Y,Y,Y
+JPN,Japan,Sovereign,Y,Y,,
+JOR,Jordan,Sovereign,Y,Y,Y,Y
+KAZ,Kazakhstan,Sovereign,Y,Y,,
+KEN,Kenya,Sovereign,Y,Y,,
+KIR,Kiribati,Sovereign,Y,Y,,
+KOS,Kosovo,Non-sovereign,Y,Y,,
+KWT,Kuwait,Sovereign,,,,
+KGZ,Kyrgyzstan,Sovereign,Y,Y,,
+FR-RE,La Réunion,Non-sovereign,Y,Y,,
+LAO,Laos,Sovereign,Y,Y,Y,Y
+LVA,Latvia,Sovereign,Y,Y,,
+LBN,Lebanon,Sovereign,,,,
+LSO,Lesotho,Sovereign,Y,Y,Y,Y
+LBR,Liberia,Sovereign,,,,
+LBY,Libya,Sovereign,,,,
+LIE,Liechtenstein,Sovereign,Y,Y,Y,Y
+LTU,Lithuania,Sovereign,Y,Y,,
+LUX,Luxembourg,Sovereign,Y,Y,,
+MAC,Macao,Non-sovereign,Y,Y,,
+MKD,North Macedonia,Sovereign,Y,Y,,
+MDG,Madagascar,Sovereign,Y,Y,,
+PT-30,Madeira,Non-sovereign,Y,Y,Y,Y
+MWI,Malawi,Sovereign,Y,,,
+MYS,Malaysia,Sovereign,Y,Y,,
+MDV,Maldives,Sovereign,Y,Y,Y,Y
+MLI,Mali,Sovereign,Y,,,
+MLT,Malta,Sovereign,Y,Y,,
+MHL,Marshall Islands,Sovereign,,,,
+FR-MQ,Martinique,Non-sovereign,,Y,,
+MRT,Mauritania,Sovereign,,,,
+MUS,Mauritius,Sovereign,Y,Y,,
+ES-ML,Melilla,Non-sovereign,,,,
+MEX,Mexico,Sovereign,Y,Y,Y,Y
+MDA,Moldova,Sovereign,Y,Y,,
+MCO,Monaco,Sovereign,Y,Y,,
+MNG,Mongolia,Sovereign,Y,,,
+MNE,Montenegro,Sovereign,Y,Y,,
+MAR,Morocco,Sovereign,,,,
+MOZ,Mozambique,Sovereign,Y,Y,Y,Y
+MMR,Myanmar,Sovereign,Y,Y,Y,Y
+NAM,Namibia,Sovereign,Y,Y,Y,Y
+NRU,Nauru,Sovereign,,,,
+NPL,Nepal,Sovereign,Y,,,
+NLD,Netherlands,Sovereign,Y,Y,Y,
+NCL,New Caledonia,Non-sovereign,,,,
+NZL,New Zealand,Sovereign,,Y,,
+NIC,Nicaragua,Sovereign,Y,,,
+NER,Niger,Sovereign,,,,
+NGA,Nigeria,Sovereign,Y,,,
+PRK,North Korea,Sovereign,,,,
+NOR,Norway,Sovereign,Y,Y,,
+OMN,Oman,Sovereign,Y,Y,Y,Y
+PAK,Pakistan,Sovereign,Y,,,
+PLW,Palau,Sovereign,,,,
+PAN,Panama,Sovereign,Y,Y,Y,Y
+PNG,Papua New Guinea,Sovereign,,,,
+PRY,Paraguay,Sovereign,,Y,,
+PER,Peru,Sovereign,Y,Y,Y,Y
+PHL,Philippines,Sovereign,Y,Y,,
+POL,Poland,Sovereign,Y,Y,,
+PRT,Portugal,Sovereign,Y,Y,Y,Y
+PRI,Puerto Rico,Non-sovereign,Y,Y,Y,Y
+QAT,Qatar,Sovereign,Y,Y,Y,Y
+ROU,Romania,Sovereign,Y,Y,Y,Y
+RUS,Russia,Sovereign,,,,
+RWA,Rwanda,Sovereign,Y,Y,,
+KNA,Saint Kitts and Nevis,Sovereign,,,,
+LCA,Saint Lucia,Sovereign,Y,Y,Y,Y
+VCT,Saint Vincent and the Grenadines,Sovereign,,,,
+WSM,Samoa,Sovereign,Y,Y,,
+SMR,San Marino,Sovereign,Y,Y,,
+STP,São Tomé and Príncipe,Sovereign,,,,
+SAU,Saudi Arabia,Sovereign,,,,
+SEN,Senegal,Sovereign,Y,,,
+SRB,Serbia,Sovereign,Y,Y,,
+SYC,Seychelles,Sovereign,Y,Y,,
+SLE,Sierra Leone,Sovereign,Y,,,
+SGP,Singapore,Sovereign,Y,Y,,
+SVK,Slovakia,Sovereign,Y,Y,Y,
+SVN,Slovenia,Sovereign,Y,Y,,
+SLB,Solomon Islands,Sovereign,Y,,,
+SOM,Somalia,Sovereign,,,,
+ZAF,South Africa,Sovereign,Y,Y,Y,Y
+KOR,South Korea,Sovereign,Y,Y,Y,Y
+SDS,South Sudan,Sovereign,,,,
+ESP,Spain,Sovereign,Y,Y,Y,Y
+LKA,Sri Lanka,Sovereign,,Y,,
+SDN,Sudan,Sovereign,,,,
+SUR,Suriname,Sovereign,,,,
+SWE,Sweden,Sovereign,Y,Y,Y,
+CHE,Switzerland,Sovereign,Y,Y,Y,Y
+SYR,Syria,Sovereign,,,,
+TWN,Taiwan,Non-sovereign,Y,Y,,
+TJK,Tajikistan,Sovereign,Y,Y,,
+TZA,Tanzania,Sovereign,Y,,,
+THA,Thailand,Sovereign,Y,Y,Y,Y
+BHS,Bahamas,Sovereign,Y,Y,Y,Y
+GMB,Gambia,Sovereign,Y,,,
+CN-XZ,Tibet,Non-sovereign,,,,
+TLS,Timor-Leste,Sovereign,,,,
+TGO,Togo,Sovereign,,,,
+TON,Tonga,Sovereign,Y,Y,,
+TTO,Trinidad and Tobago,Sovereign,,,,
+TUN,Tunisia,Sovereign,,Y,,
+TUR,Turkey,Sovereign,Y,Y,Y,
+TKM,Turkmenistan,Sovereign,Y,Y,,
+TUV,Tuvalu,Sovereign,,,,
+UGA,Uganda,Sovereign,Y,,,
+UKR,Ukraine,Sovereign,Y,Y,,
+ARE,United Arab Emirates,Sovereign,Y,Y,Y,Y
+GBR,United Kingdom,Sovereign,Y,Y,Y,Y
+USA,United States of America,Sovereign,Y,Y,Y,Y
+URY,Uruguay,Sovereign,Y,Y,Y,Y
+VIR,U.S. Virgin Islands,Non-sovereign,Y,Y,Y,Y
+UZB,Uzbekistan,Sovereign,Y,Y,,
+VUT,Vanuatu,Sovereign,Y,,,
+VEN,Venezuela,Sovereign,,Y,,
+VNM,Vietnam,Sovereign,Y,Y,Y,Y
+YEM,Yemen,Sovereign,,Y,,
+ZMB,Zambia,Sovereign,Y,Y,Y,Y
+ZWE,Zimbabwe,Sovereign,Y,Y,Y,Y
+SXM,Sint Maarten,Non-sovereign,,,,
+ATA,Antarctica,Non-sovereign,,,,

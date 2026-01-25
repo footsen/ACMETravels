@@ -1,0 +1,243 @@
+
+I want to create an application that will show data on my family's travels. The application will be called "ACME Travels"
+
+Data source is a spreadsheet with these columns: Code, Name, Status, Chris, Maggie, Allyson, Edward. 
+
+Code is the country code, for example FI for Finland, FR for France, PF for French Polynesia, GA for Gabon. In the case of territories that are not sovereign countries, the ISO 3166-2 code might be something like ES-CN (Canary Islands), ES-ML (Melilla), FR-971 (Guadeloupe), FR-972 (Martinique), or CN-XZ (Tibet).
+
+Name is the name of the country or territory, for example Isle of Man, Israel, Italy, Jamaica
+
+Status indicates whether or not the entity is a sovereign state. Sovereign states are included in the list of "UN Member States", and others are part of an expanded list, which we call non-soveriegn states. Examples of the latter include Aruba, which is a Constituent country of the Kingdom of the Netherlands; Hong Kong, which is a Special Administrative Region of China; and the Isle of Man, which is a Crown dependency of the United Kingdom.
+
+Sometimes the set of 
+
+The last four columns are the people in my family. These are checkboxes to indicate which people have visited which entities.
+
+Before developing, let's plan things out. Here are some questions for you:
+
+I think that Natural Earth has a good geojson database for all the countries in the world. One problem that I anticipate is that the set of places that we visit are sometimes countries, sometimes non-sovereign states. Sometimes there is ambiguity. For example, La Réunion (FR-974) is part of France so it might be incldued in France's polygon set. But I want to treat it separately, and split it out from "mainland" France. Mostly France, Spain, and Portugal have these issues, but China does too in the case of Macau, Hong Kong, and Tibet.
+
+Is it ok if I give you the spreadsheet in csv format?
+
+I have a github account and would like to host the application on github.io. Is that possible?
+
+For the interface, what do you think of having a set of checkboxes for Allyson, Chris, Maggie, and Edward. The map would fill in the countries or territories visited by that person (or those persons).
+
+Please offer feedback and ideas for this project.
+-------
+
+Please give me a script to ensure that Code matches ISO 3166-1 alpha-2, and that Status is either “Sovereign” or “Non-sovereign”. And give a master list of ISO 3166-1 country/territory names. I will confirm that my data is correct before we proceed further.
+
+Attaching my current CSV file here. If you can validate it yourself, that'd be even better.
+
+ogr2ogr -f GeoJSON ne_110m_admin_0_countries.geojson ne_110m_admin_0_countries.shp
+
+
+--------
+
+
+OK, let's go with Natural Earth’s GeoJSON dataset for country centroids. I'm uploading the travels data set (ACMETravels.csv, please confirm that this can map all of the entities.
+
+We'll go with csv for the spreadsheet. 
+
+Glad that this will work with github.io for hosting. Will you give me the files to upload to that site, or do you handle it? I already have an account there.
+
+For the interface idea, let's use radio buttons instead, at least for now. That way we only see one person's travel at a time. Each person can have a differnet color (Chris: blue, Maggie: red, Allyson: green, Edward: yellow) which will fill in the places they've traveled to. But only one person's travel will show at a time.
+
+Zooming is key. Yes, please allow this.
+
+And tooltips to show information about each entity would be great. The information in the tooltip can be Name of the country or territory and who has visited it.
+
+Yes, please create a "stats panel" and a search bar. These are great ideas.
+
+I am planning to add "year visited" in version 2.0! The timeline slider will be useful then.
+
+Export is a good idea as well. PNG export is fine.
+
+------------
+
+It works well, thank you!
+
+A couple of things:
+
+On the map, Reunion shows as Guadeloupe. That means that the polygons for Guadeloupe include both Guadeloupe and Reunion.
+
+I was using MD as the code for Moldova, not Madeira. 
+
+azores, new caldonia, Tibet, Balearic Islands, Ceuta, Melilla (which currently has a popup of "Canary Islands"), Sardinia, etc.
+
+---------
+https://geojson.io/#map=2/0/20
+
+I have a geojson file for spain, attached here. It includes the Balearic islands, the Canary Islands, Ceuta, and Melilla, and considers all as Spain. I want to separate them, and have different entities for each. ISO 3166-2 defines these separately: ES-PM (Balearic islands), ES-CN (Canary Islands), ES-CE (Ceuta), and ES-ML (Melilla). Each of these entities would have their own geojson record and their own geometry. Is this possible?
+
+was working:
+- checkboxes missing again
+- confirm that Mali, Iraq, Serbia, Kosovo are good
+- I have visited mali, no one has visited Melilla ...
+check st martin
+
+need to analyze most recent response
+
+
+- create year first visited instead of y/n
+- Reunion shows as Guadeloupe, which means that the polygons for Guadeloupe include both Guadeloupe and Reunion
+ -MD is the code for Moldova
+- export feature
+- host on gibhub.io
+
+Maggie:
+- Turks & Caicos Islands?
+- add years
+
+
+
+===============
+
+Great news, and thank you for the feedback.
+
+For the CSV (name will be ACME_Travels.csv), I will export from an Excel spreadsheet to create the CSV. This will facilitate easy updates in the future, as we travel more. An example is attached here. There are 10 columns: Code,Name,Status,Chris,Maggie,Allyson,Edward,Continent,Population,GDP. The last 3 are blank, and I think you can pull that data from the geojson files. It's simpler for me if a YES reponse is Y and a NO reponse is blank. In the python script to process ACME_Travels.csv, please convert Y to 1, and blank to N. There won't be any other values in the travel columns.
+
+I like the idea of multiple checkboxes combining results.
+
+One problem is that some countries (France, Spain, Portual, Netherlands) include non-sovereign territories that we consider separate for visiting purposes. For example, Reunion is a French Department, but I want to separate it from France. I created a set of geojson files "admin0 without territories FR, ES, PT, CN, NL.geojson" with admin0 data (eg, country outlines). Territories are identified by the field ISO_A2. I removed non-sovereign territories that were included but that I want to treat as separate entities. Here is a list of the territories that I removed, along with their ISO_3166_2 identifiers:
+
+New Caledonia (FR-NC)
+Saint-Pierre-et-Miquelon (FR-PM)
+French Polynesia (FR-PF)
+Wallis-et-Futuna (FR-WF)
+French Southern Territories (FR-TF)
+Saint Barthélemy (FR-BL)
+Clipperton Island (FR-CP)
+Guadeloupe (FR-GP)
+French Guiana (FR-GF)
+La Réunion (FR-RE)
+Martinique (FR-MQ)
+Mayotte (FR-YT)
+St. Martin (FR-MF)
+Ceuta (ES-CE)
+Canary Islands (ES-CN)
+Melilla (ES-ML)
+Baleares (ES-PM)
+Azores (PT-20)
+Madeira (PT-30)
+Sint Maarten (NL-SX)
+Bonaire (NL-BQ1)
+Saba (NL-BQ2)
+St. Eustatius (NL-BQ3)
+
+Also, note that the "admin0 without territories FR, ES, PT, CN, NL.geojson" does not include China. 
+
+I extracted each of the 23 non-sovereign territories listed above, in addition to China (CN) and Tibet (CN-XZ). These I combined into a single file called territories.geojson. Attaching that here.
+
+The "Code" column in ACME_Travels.csv should map to the field ISO_A2 if the entity is in admin0, or iso_3166_2 if the entity is in the territories.geojson file.
+
+Please review the attached files and advise on next steps. I would like to have an easily replicable process to rebuild things. If we travel somewhere new, we update the ACME_Travels.csv, then I run a python script to manipulate that, then the website refreshes.
+
+
+was working here: need to rebuild admin0 make sure that non-sov territories are all removed.
+
+next adjust acme travels.xlsx
+
+
+NNN New Caledonia (FR-NC) - ok in 0                   NC
+NNN Saint-Pierre-et-Miquelon (FR-PM) - ok in 0        PM
+NNN French Polynesia (FR-PF) - need to add from 1
+NNN Wallis-et-Futuna (FR-WF) - need to add from 1
+NNN French Southern Territories (FR-TF) - ok in 0     TF
+NNN Saint Barthélemy (FR-BL) - ok in 0                BL
+NNN Clipperton Island (FR-CP) - ok in 0               NUKE
+Y Guadeloupe (FR-GP)
+Y French Guiana (FR-GF)
+Y La Réunion (FR-RE)
+Y Martinique (FR-MQ)
+Y Mayotte (FR-YT)
+NNN St. Martin (FR-MF) - ok in 0                      MF
+
+Y Ceuta (ES-CE)
+Y Canary Islands (ES-CN)
+Y Melilla (ES-ML)
+Y Baleares (ES-PM)
+
+Y Azores (PT-20)
+Y Madeira (PT-30)
+
+NNN Sint Maarten (NL-SX) - ok in 0                    SX
+Y Bonaire (NL-BQ1)
+Y Saba (NL-BQ2)
+Y St. Eustatius (NL-BQ3)
+
+
+I found a big error. The geojson file "admin0 without territories FR, ES, PT, CN, NL.geojson" has some non-sovereign French territories in it. These are also contained in territories.geojson. I removed these:
+
+x ES-CE Ceuta.geojson
+x ES-CN Canary Islands.geojson
+x ES-ML Melilla.geojson
+x ES-PM Balearic Islands.geojson
+NO - FR-BL Saint Barthelemy.geojson
+NO - FR-CP Clipperton Island.geojson
+x FR-GF French Guiana.geojson
+x FR-GP Guadeloupe.geojson
+NO - FR-MF St. Martin.geojson
+x FR-MQ Martinique.geojson
+NO - FR-NC New Caledonia.geojson
+x FR-PF French Polynesia.geojson
+NO - FR-PM Saint-Pierre-et-Miquelon.geojson
+x FR-RE La Reunion.geojson
+NO - FR-TF French Southern Territories.geojson
+- FR-WF Wallis-et-Futuna.geojson
+- FR-YT Mayotte.geojson
+- NL-BQ1 Bonaire.geojson
+- NL-BQ2 Saba.geojson
+- NL-BQ3 St. Eustatius.geojson
+- NL-SX Sint Maarten.geojson
+- PT-20 Azores.geojson
+- PT-30 Madeira.geojson
+
+to remove polygons from a territory:
+mapshaper.org
+console mapshaper explode
+console merge-layers target=1,2
+export
+
+
+bookmarks:
+https://app.atlas.co
+https://geojson.io
+https://editor.geoman.io/#
+https://mapshaper.org/
+
+
+
+for subdiv territories with their own geojson file:
+edit using https://app.atlas.co (or notepad++)
+change ISO_3166_2 to ADM0_A3
+and make a code (prob = iso_3166_2)
+
+
+merge-layers target=admin0,CHN,CN-XZ,ES-CE,ES-CN,ES-ML,ES-PM,FR-GF,FR-GP,FR-MQ,FR-RE,FR-YT,NL-BQ1,NL-BQ2,NL-BQ3,PT-20,PT-30 force
+
+==================================
+
+I want to create an application that will show data on my family's travels. It will show a map of the world, and countries/territories will be shaded to indicate if they have been visited or not.
+
+The application will be called "ACME Travels"  There are two data sources: an "ACME Travels" CSV that incidates which countries/territories have been visited (yes or no), and a geojson file ("world.geojson") with polygon information for all countries/territories. Each country/territory has a code to identify it.
+
+The ACME Travels.csv data source is a spreadsheet with these columns: Code, Name, Status, Chris, Maggie, Allyson, Edward. It is attached here.
+
+Code is the country code, corresponding to the ADM0_A3 field in the "natural earth" geojson files. Examples of these codes are FIN for Finland, FRA for France, PYF for French Polynesia, GAB for Gabon. In the case of territories that are not sovereign countries, I edited the geojson and created codes. Examples include Azores (code PT-20), Baleares (ES-PM), Bonaire (NL-BQ1), and La Réunion (FR-RE). The attached file "country codes.csv" has a full list of countries and codes.
+
+Name is the name of the country or territory, for example Isle of Man, Israel, Italy, Jamaica.
+
+Status indicates whether or not the entity is a sovereign state. Sovereign states are included in the list of "UN Member States", and others are part of an expanded list, which we call non-soveriegn states. Examples of the latter include Aruba, which is a Constituent country of the Kingdom of the Netherlands; Hong Kong, which is a Special Administrative Region of China; and the Isle of Man, which is a Crown dependency of the United Kingdom.
+
+The last four columns are the people in my family: Chris, Maggie, Allyson, and Edward. These are field are Y or N to indicate which people have visited which entities.
+
+Before developing, let's plan things out. Here are some questions for you:
+
+I have a github account and would like to host this as a web application on github.io. Is that possible?
+
+For the interface, what do you think of having a set of checkboxes for Allyson, Chris, Maggie, and Edward. The map would fill in the countries or territories visited by that person (or those persons).
+
+Please offer feedback and ideas for this project.
+
