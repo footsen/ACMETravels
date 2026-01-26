@@ -11,11 +11,17 @@ map = L.map('map', {
   maxBoundsViscosity: 1.0
 }).setView([100, 0], 2);
 
-L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  maxZoom: 19,
-  noWrap: false
+//L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png', {
+//  attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+//  maxZoom: 19,
+//  noWrap: false
+//}).addTo(map);
+
+L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?api_key=bcbaa58f-a841-4a26-b825-32c67976c517', {
+  attribution: '...',  // keep existing
+  maxZoom: 19
 }).addTo(map);
+
 
   // Load visit data
   const res = await fetch('acme-travels.json');
