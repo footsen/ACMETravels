@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     noWrap: true,
     maxBounds: [[-85, -180], [85, 180]],
     maxBoundsViscosity: 1.0
-  }).setView([20, 0], 2);
+  }).setView([100, 0], 2);
 
   L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?api_key=bcbaa58f-a841-4a26-b825-32c67976c517', {
-    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
+    attribution: '...',  // keep existing
     maxZoom: 19
   }).addTo(map);
 
@@ -97,6 +97,6 @@ function getStyle(feature) {
     weight: 1,
     opacity: 1,
     color: 'white',
-    fillOpacity: (count / 4) * 0.7 + 0.3
+    fillOpacity: (count / 4) + 0.3
   };
 }
