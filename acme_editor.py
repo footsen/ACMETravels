@@ -15,7 +15,7 @@ import urllib.request
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-GITHUB_JSON_URL = "https://raw.githubusercontent.com/footsen/ACMETravels/main/acme-travels.json"
+GITHUB_JSON_URL = "https://raw.githubusercontent.com/footsen/ACMETravels/main/docs/acme-travels.json"
 PEOPLE = ["chris", "maggie", "allyson", "edward"]
 PEOPLE_LABELS = ["Chris", "Maggie", "Allyson", "Edward"]
 
