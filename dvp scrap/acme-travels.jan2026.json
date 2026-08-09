@@ -442,7 +442,7 @@
   },
   {
     "code": "CIV",
-    "name": "Côte d'Ivoire",
+    "name": "Cóte d'Ivoire",
     "status": "Sovereign",
     "chris": true,
     "maggie": false,
@@ -469,8 +469,8 @@
   },
   {
     "code": "CUW",
-    "name": "Curaçao",
-    "status": "Non-sovereign",
+    "name": "Curação",
+    "status": "Sovereign",
     "chris": false,
     "maggie": false,
     "allyson": false,
@@ -2018,24 +2018,6 @@
   {
     "code": "ATA",
     "name": "Antarctica",
-    "status": "Non-sovereign",
-    "chris": false,
-    "maggie": false,
-    "allyson": false,
-    "edward": false
-  },
-  {
-    "code": "PSX",
-    "name": "Palestine",
-    "status": "Non-sovereign",
-    "chris": false,
-    "maggie": false,
-    "allyson": false,
-    "edward": false
-  },
-  {
-    "code": "SAH",
-    "name": "Western Sahara",
     "status": "Non-sovereign",
     "chris": false,
     "maggie": false,
