@@ -39,8 +39,8 @@
     "code": "AND",
     "name": "Andorra",
     "status": "Sovereign",
-    "chris": false,
-    "maggie": false,
+    "chris": true,
+    "maggie": true,
     "allyson": false,
     "edward": false
   },
@@ -120,8 +120,8 @@
     "code": "PT-20",
     "name": "Azores",
     "status": "Non-sovereign",
-    "chris": false,
-    "maggie": false,
+    "chris": true,
+    "maggie": true,
     "allyson": false,
     "edward": false
   },
@@ -777,7 +777,7 @@
     "code": "GUY",
     "name": "Guyana",
     "status": "Sovereign",
-    "chris": false,
+    "chris": true,
     "maggie": false,
     "allyson": false,
     "edward": false
